@@ -20,7 +20,7 @@ Catatan:\
 #protected\
 +public
 
-# Inheritence:
+# Inheritence
 Di sini saya ada class-class yang tersusun hirarki:
 - Telephone merupakan class yang paling parent/super
 - TelephoneBooth dan Handphone merupakan child class atau subclass dari Telephone
@@ -30,7 +30,7 @@ Setiap metode call() dan end(), kecuali Telephone, merupakan metode override dar
 
 Constructor (kecuali Telephone) memanggil constructor dari super class terlebih dahulu.
 
-# Enkapsulasi:
+# Enkapsulasi
 Seperti pada java code dan diagram:
 
 Pada variabel-variabel
