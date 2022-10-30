@@ -26,6 +26,13 @@ Di sini saya ada class-class yang tersusun hirarki:
 - TelephoneBooth dan Handphone merupakan child class atau subclass dari Telephone
 - Handphone memiliki 2 child class/subclass yaitu Android dan iPhone
 
+diketahui memiliki hubungan sub-parent dengan menggunakan kata "extends"
+
+Contoh Handphone:
+```
+public class Handphone extends Telephone
+```
+
 Setiap metode call() dan end(), kecuali Telephone, merupakan metode override dari parent classnya.
 
 Constructor (kecuali Telephone) memanggil constructor dari super class terlebih dahulu.
